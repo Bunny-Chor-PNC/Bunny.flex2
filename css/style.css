@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+}
+nav{
+    background-color: rgb(53, 180, 180);
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 10px 10px 0px 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+aside{
+    flex: 1;
+    background-color: teal;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* align-self: start; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 10px 0px 10px 10px;
+
+}
+main{
+    flex: 2;
+    margin: 10px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orangered;
+    flex-wrap: wrap;
+    height: 100%;
+    /* margin: 10px; */
+    
+}
+.content_1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.content_2{
+    background-color: teal;
+    width: 28%;
+    margin: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+.content_3{
+    background-color: teal;
+    width: 27%;
+    margin: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.content_4{
+    background-color: teal;
+    width: 28%;
+    margin: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}footer{
+    background-color: rgb(53, 180, 180);
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0px 10px 10px 10px;
+}
